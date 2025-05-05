@@ -1,0 +1,19 @@
+# [] is used to create a list
+# don't forget to use commas to separate items in a list
+# 0 is the first item in a list
+
+fav_movies = ["Hairspray", "Night at the Museum", "Robot Dreams"]
+
+# len() is used to get the length of a list
+# print(len(fav_movies))
+
+# append() is used to add an item to the end of a list
+fav_movies.append("Legally Blonde")
+
+# .insert() is used to add an item to a specific index in a list
+fav_movies.insert(3,"Flow")
+print(fav_movies)
+
+# del() is used to delete an item from a list
+del(fav_movies[1])
+print(fav_movies)
