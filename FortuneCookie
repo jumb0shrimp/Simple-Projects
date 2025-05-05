@@ -12,4 +12,5 @@ if fortune_number == 2:
 if fortune_number == 3:
     fortune_text = "Today will be blase"
 
+#the f in front of strings tell Python to look at the values, expressions, or instance inside {} and substitute them with the variables values or results if exists
 print(f"{fortune_text}. Your Lucky Number is: {lucky_number}")
