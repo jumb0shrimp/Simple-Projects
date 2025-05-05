@@ -1,0 +1,37 @@
+print("Hello World")
+weight = 136.4
+age = 24
+day = 25
+randomAdd = weight + age
+print(randomAdd)
+
+divide = randomAdd / age
+print(divide)
+
+shirt = "black"
+print(shirt)
+
+movie = "Hairspray"
+print(movie)
+
+print(f"Hi, I am {age} years old")
+print(f"It's March {day}th today")
+
+month = "March"
+dayName = "Tuesday"
+temp = 55
+print(f"Today is {dayName} {month} {day} and it's {temp} degrees outside")
+
+lightIsOn = False
+if lightIsOn: 
+  print("The light is on, sister!")
+else:
+  print("The light is off, sister!")
+
+if weight <= 138:
+  print("Keep going! You're doing great!")
+
+if age >= 18:
+  print("You are an adult")
+else:
+  print("You are a child")
